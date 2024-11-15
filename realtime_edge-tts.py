@@ -71,7 +71,7 @@ class AudioPlayer:
             self.stream.close()
         self.p.terminate()
 
-async def tts_stream(text, VOICE = "en-GB-SoniaNeural") -> None:
+async def tts_stream(text, voice = "en-GB-SoniaNeural") -> None:
     """Main function"""
 
     OUTPUT_FILE = "test.mp3"
